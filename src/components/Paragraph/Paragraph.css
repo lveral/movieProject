@@ -1,0 +1,14 @@
+.paragraph {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.size20 {
+    font-size: 20px;
+}
+
+.size16 {
+    font-size: 16px;
+}
