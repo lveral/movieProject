@@ -1,0 +1,52 @@
+.navbar {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    width: 1440;
+    height: 80;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-right: 120px;
+    padding-bottom: 16px;
+    padding-left: 120px;
+}
+
+.ref {
+    display: flexbox;
+}
+
+.nav-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #A8AEBF;
+    margin-left: 16px;
+}
+
+.nav-item-login {
+    padding-right: 64px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+    background: url('/public/login.svg') no-repeat 85px;
+    text-decoration: none;
+    color: #A8AEBF;
+    margin-left: 16px;
+}
+
+.login {
+    padding-left: 8px;
+}
+
+.round {
+    background: #7B6EF6;
+    border-radius: 50%;
+    padding: 0px 7px;
+    color: #FFFFFF;
+}
+
+.selected {
+    color: #FFFFFF;
+}

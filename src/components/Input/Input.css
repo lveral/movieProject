@@ -1,0 +1,27 @@
+.input {
+    width: 384px;
+    height: 64px;
+    border-radius: 12px;
+    border-width: 1px;
+    padding-right: 16px;
+    padding-left: 16px;
+    gap: 16px;
+    background: #0000001A;
+    border: 1px solid #323B54;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    box-sizing: border-box;
+    color: #C2C8D7;
+}
+
+.input::placeholder {
+    color: #475069;
+}
+
+.icon-search {
+    background: url('/public/search.svg') no-repeat 16px center;
+    padding-left: 56px;
+}

@@ -1,9 +1,9 @@
 import './Header.css'
 
-function Header(props) {
+function Header({ text }) {
 
     return (
-        <h1 className='header'>{props.text}</h1>
+        <h1 className='header'>{text}</h1>
     )
 }
 

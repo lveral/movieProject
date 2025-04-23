@@ -1,9 +1,9 @@
 import './Paragraph.css'
 
-function Paragraph(props) {
+function Paragraph({ text, size }) {
 
     return (
-        <p className={'paragraph' + ' ' + props.size}> {props.text}</p >
+        <p className={'paragraph' + ' ' + size}> {text}</p >
     )
 }
 
