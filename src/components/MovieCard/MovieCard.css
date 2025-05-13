@@ -1,0 +1,10 @@
+.card {
+    width: 282;
+    height: 520;
+    border-radius: 12px;
+    background-color: #1a1a1a;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}

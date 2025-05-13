@@ -4,6 +4,7 @@ import Paragraph from './components/Paragraph/paragraph';
 import Header from './components/Header/Header';
 import Input from './components/Input/Input';
 import Navbar from './components/Navbar/Navbar';
+import MovieList from './components/MovieList/MovieList';
 
 function App() {
 
@@ -15,8 +16,8 @@ function App() {
         <Paragraph size='size16' text='Введите название фильма, сериала или мультфильма для поиска и добавления в избранное.' />
         <Input placeholder='Введите название' className='icon-search'></Input>
         <Button text='Искать' />
-        <Input placeholder='Ваше имя'></Input>
       </div>
+      <MovieList />
     </>
 
   )
